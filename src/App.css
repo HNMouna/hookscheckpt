@@ -17,11 +17,19 @@
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
+  gap: 20px;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.card-img {
+  height : 350px;
+  width: 250px;
+}
+.star-rating{
+  font-size: 25px;
 }
 
 .App-link {
@@ -31,6 +39,7 @@
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
+    
   }
   to {
     transform: rotate(360deg);
