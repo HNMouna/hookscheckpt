@@ -53,7 +53,7 @@ export default function AddMovie({getInputData}) {
   const [rate, setRate] = useState(0);
   const handleInput =(e) => {
    setInput({...input,[e.target.name]:e.target.value});
-   console.log(input);
+   
   };
   const handleAdd = (e) => {
       e.preventDefault();
